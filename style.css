@@ -1,0 +1,76 @@
+body{
+ font-family: 'Abel', sans-serif;
+ margin: auto 0;
+ text-align: center;
+ background-image: url(pic1.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ max-width: 100%;
+}
+
+
+input{
+  border-radius: 7px;
+  padding: 10px;
+  margin-left: 20px;
+  width: 20%;
+  border: 0px solid;
+  font-family: font-family: 'Abel', sans-serif;
+}
+
+#enter{
+  padding: 10px; 
+  background-color: black;
+  color: white;
+  border-radius: 7px;
+  border: 0px solid;
+  transition: 0.5s;
+  font-family:  'Abel', sans-serif;
+
+}
+
+#enter:hover{
+  cursor: pointer;
+background-color: transparent;
+ 
+}
+
+#first{
+  font-size: 1.3em;
+
+}
+
+li{
+ list-style: none;
+ font-size: 1.2em;
+ line-height: 220%;
+ cursor: default;
+}
+
+ul{
+  margin-right: 45px;
+}
+
+button{
+  font-family: 'Abel', sans-serif;
+  border: 0px solid;
+  border-radius: 3px;
+  background-color: white;
+  cursor: pointer;
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+button:hover{
+background-color: transparent;
+transition: 0.5s;
+}
+
+hr{
+  width: 50%
+}
+
+
+.done {
+  text-decoration: line-through;
+}
